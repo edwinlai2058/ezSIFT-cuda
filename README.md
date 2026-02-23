@@ -1,3 +1,6 @@
+### Note: This is the CUDA implementation of the ezSIFT library. 
+### We Optimized the image stitching pipeline, implementing SIFT keypoint detection, Brute-Force feature matching with Sum of Squared Distances (SSD), and RANSAC-based homography estimation using CUDA.
+
 ## ezSIFT: An easy-to-use stanalone SIFT library 
 
 [![License][license-img]][license-url] [![Build Status](https://travis-ci.com/robertwgh/ezSIFT.svg?branch=master)](https://travis-ci.com/robertwgh/ezSIFT)
@@ -6,7 +9,7 @@ The SIFT (scale-invariant feature transform) algorithm is considered to be one o
 
 The ezSIFT library provides a standalone and lightweight SIFT implementation written in C/C++. The ezSIFT is self-contained, and does not require any other libraries. So it is easy to use and modify. Besides, the implementation of the ezSIFT is straightforward and easy to read. 
 
-The ezSIFT project was original hosted at SourceForge ([link](https://sourceforge.net/projects/ezsift)). We recently migrated it to github to better maintain the code development. 
+The ezSIFT project was original hosted at SourceForge ([link](https://sourceforge.net/projects/ezsift)). We recently migrated it to github to better maintain the code development.
 
 ### Documentation
 Please read [ezSIFT Wiki page](https://github.com/robertwgh/ezSIFT/wiki) for details.
