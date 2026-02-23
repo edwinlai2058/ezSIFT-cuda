@@ -1,0 +1,1 @@
+srun -p nvidia --gres=gpu:1 nvprof --metrics gld_throughput  ./benchmark_optimized IMG_6017.pgm
